@@ -1,3 +1,3 @@
 module github.com/bonfy/btool
 
-go 1.12
+go 1.15
