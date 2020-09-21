@@ -5,13 +5,13 @@ import (
 	"path/filepath"
 )
 
-// GetFileExt : Get the ext of the file
-func GetFileExt(filename string) string {
+// FileGetExt : Get the ext of the file
+func FileGetExt(filename string) string {
 	return filepath.Ext(filename)
 }
 
-// IsFileExist : Return the file exsits or not
-func IsFileExist(filename string) bool {
+// FileIsExist : Return the file exsits or not
+func FileIsExist(filename string) bool {
 	info, err := os.Stat(filename)
 	if os.IsNotExist(err) {
 		return false

@@ -4,5 +4,5 @@ Bonfy's Go tool
 
 ## File 
 
-* IsFileExist(filename string) bool
-* GetFileExt(filename string) string 
+* FileIsExist(filename string) bool
+* FileGetExt(filename string) string 

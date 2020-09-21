@@ -2,10 +2,10 @@ package btool
 
 import "testing"
 
-func TestGetFileExt(t *testing.T) {
+func TestFileGetExt(t *testing.T) {
 	in := "./hello/readme.md"
 	expected := ".md"
-	actual := GetFileExt(in)
+	actual := FileGetExt(in)
 	if actual != expected {
 		t.Errorf("GetExt(%s) = %s; expected %s", in, actual, expected)
 	}
